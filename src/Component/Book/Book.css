@@ -1,0 +1,9 @@
+#cardStyle{
+    width: 350px;
+    padding: 20px;
+    box-shadow: -5px -2px 18px 11px #ddd;
+}
+#cardMedia {
+    height: auto;
+    padding: 30px;
+}

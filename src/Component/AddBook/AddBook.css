@@ -1,0 +1,21 @@
+input{
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    color: #625c5c;
+    font-weight: 600;
+    margin: 13px 0;
+    border-radius:5px;
+}
+.formStyle{
+    background: #6dd4f44d;
+    padding: 40px;
+    border-radius: 15px;
+}
+.s-btn{
+    width: 10%;
+    float: right;
+    border-radius: 10px;
+    background: rgb(0 123 255 / 25%);
+    padding: 7px;
+}
