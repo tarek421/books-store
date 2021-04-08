@@ -5,7 +5,7 @@ const Order = () => {
     
     const { _id } = useParams();
     const [book, setBook] = useState({});
-    console.log(book)
+    const {bookName, price} = book;
     useEffect(() => {
         fetch('https://floating-wildwood-70864.herokuapp.com/book/'+_id)
         .then(res => res.json())
@@ -25,7 +25,29 @@ const Order = () => {
                 </div>
             </div>
             <hr/>
-        
+            <div className="row">
+                <div className="col-md-7">
+                    <h4>{bookName}</h4>
+                </div>
+                <div className="col-md-3">
+                    <h4 style={{textAlign:'center'}}>1</h4>
+                </div>
+                <div className="col-md-2">
+                    <h4 style={{textAlign:'center'}}>{price}</h4>
+                </div>
+            </div>
+            <hr/>
+            <div className="row">
+                <div className="col-md-7">
+                    <h4>Total</h4>
+                </div>
+                <div className="col-md-3">
+                    <h4 style={{textAlign:'center'}}>1</h4>
+                </div>
+                <div className="col-md-2">
+                    <h4 style={{textAlign:'center'}}>{price}</h4>
+                </div>
+            </div>
         </div>
     );
 };
