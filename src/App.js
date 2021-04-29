@@ -1,21 +1,20 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Component/Home/Home';
+import PrivetRoute from './Component/PrivetRoute/PrivetRoute';
+import Login from './Component/Login/Login';
+import NoMatch from './Component/NoMatch/NoMatch';
+import Header from './Component/Header/Header';
+import Admin from './Component/Admin/Admin';
+import CheckOut from './Component/CheckOut/CheckOut';
+import Order from './Component/Order/Order';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
 
-import PrivetRoute from './Component/PrivetRoute/PrivetRoute';
-import Login from './Component/Login/Login';
-import NoMatch from './Component/NoMatch/NoMatch';
-import { createContext, useState } from 'react';
-import Header from './Component/Header/Header';
-// import Order from './Component/Order/Order';
-import Admin from './Component/Admin/Admin';
-import CheckOut from './Component/CheckOut/CheckOut';
-import Order from './Component/Order/Order';
 
+import { createContext, useState } from 'react';
 export const userContext = createContext();
 
 function App() {
