@@ -1,4 +1,21 @@
-live site: https://books-store-4c693.web.app/
+# Books Store
 
-Welcome to my repository.
-This is an e-commerce book web site. Here you can order all the books including different programming books. It uses Firebase as login authentication. And Express JS has been used for the backend. And Mongodb has been used as the server.
+[Live Website](https://books-store-4c693.web.app/).
+
+![world-traveler](https://user-images.githubusercontent.com/76926399/116670645-cc854380-a9c1-11eb-9eae-dcf3264da78e.png)
+
+## This project has been used tecknology
+
+* Used React Framework, JavaScript Language, Node.JS for Backend, and MongoDB as database.
+* Firebase for authentication.
+* React-bootstrap for style frontend side.
+* React hook form to get data from the form.
+
+## `Some features in my project:`
+
+* This site is responsive for mobile and Desktop.
+* Here I am use some npm package for style.
+* You will see a destination page.which is private page.You can't se without login.
+* I am create login page by firebase authentication.
+* you can new product added, remove and edit.
+* Customer can review in this product.
