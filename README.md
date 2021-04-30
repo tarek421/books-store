@@ -4,7 +4,7 @@
 
 ![world-traveler]![books-store](https://user-images.githubusercontent.com/76926399/116672343-e45dc700-a9c3-11eb-8af4-d8bd172bbf44.png)
 
-## This project has been used tecknology
+## This project has been used Technology
 
 * Used React Framework, JavaScript Language, Node.JS for Backend, and MongoDB as database.
 * Firebase for authentication.
